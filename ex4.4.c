@@ -5,8 +5,8 @@
 
 int main (void) {
 
-  int n, factorial;
-  int count;
+  int n, factorial, count;
+   
   for (count = 1; count <= 10; ++count){
     for (n=1, factorial=1; n <= count; ++n) {
     factorial = factorial * n;
